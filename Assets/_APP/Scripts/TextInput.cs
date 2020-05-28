@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class TextInput : MonoBehaviour
 {
-    public Text nameOutput;
-    public InputField inputField;
+    public Text nameOutput1, nameOutput2;
+    public InputField inputField1, inputField2;
     public Camera camera;
 
     // Start is called before the first frame update
@@ -33,12 +33,16 @@ public class TextInput : MonoBehaviour
 
     public void sendText()
     {
-        nameOutput.text = inputField.text;
+        nameOutput1.text = inputField1.text;
+        nameOutput2.text = inputField2.text;
     }
 
     public void resetTexts()
     {
-        nameOutput.text = null;
-        inputField.text = null;
+        nameOutput1.text = null;
+        inputField1.text = null;
+
+        nameOutput2.text = null;
+        inputField2.text = null;
     }
 }
