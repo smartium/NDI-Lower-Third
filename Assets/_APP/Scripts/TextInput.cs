@@ -33,8 +33,8 @@ public class TextInput : MonoBehaviour
 
     public void sendText()
     {
-        nameOutput1.text = inputField1.text;
-        nameOutput2.text = inputField2.text;
+        nameOutput1.text = inputField1.text.ToUpper();
+        nameOutput2.text = inputField2.text.ToUpper();
     }
 
     public void resetTexts()
