@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_APP/Scenes/LowerThird.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
     path: Assets/_APP/Scenes/Message.unity
     guid: b04fc2389a4297742a9760784c4ad573
+  - enabled: 1
+    path: Assets/_APP/Scenes/LowerThirdPresets.unity
+    guid: 6f95e088da67440138093f8c5aaaba96
   m_configObjects: {}
